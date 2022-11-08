@@ -19,7 +19,7 @@ In the referred paper, we use this parallelization module linked to the widespre
 ## Usage
 - **Compile**: *make* 
 - **Run Optimizer**: *./simu_optimizer* <*number of individuals*> <*number of components per individual*>
-- **Run Oracle**:*mpirun -np 2* *./MyOracle* <*name_evaluator_script*>
+- **Run Oracle**: *mpirun -np* <*num_processes*> *./MyOracle* <*name_evaluator_script*>
 
 Example in the current repository: 
 ```
