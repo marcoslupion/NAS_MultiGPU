@@ -60,7 +60,7 @@ int waitAndLoadValues(int nIndividuals){ // Simulating an active wait and load o
 }
 
 void simulatedOptimizer(int nIndividuals, int nComponents){
-	int operationCheck = operationCheck = generatePopulation(nIndividuals, nComponents);
+	int operationCheck = generatePopulation(nIndividuals, nComponents);
 	if(operationCheck){
 		operationCheck = waitAndLoadValues(nIndividuals);
 	}
